@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "bot-kampot",
-      cwd: "/home/ubuntu/pm/bot-kampot",
+      cwd: "/var/pm2/apps/bot-kampot",
       script: "index.js",
       log_date_format: "YYYY-MM-DD HH:mm Z",
 

@@ -4,10 +4,10 @@ on: workflow_dispatch
 
 env:
   SERVER_HOST: ${{ secrets.SERVER_IP }}
-  SERVER_USER: ubuntu
-  SERVER_PATH: /home/ubuntu/pm/bot-kampot
+  SERVER_USER: root
+  SERVER_PATH: /var/pm2/apps/bot-kampot
 
-  CONFIG_LOCATION: /home/ubuntu/config/bot-kampot.config.js
+  CONFIG_LOCATION: /var/pm2/configs/bot-kampot.config.js
 
 jobs:
   deploy:
